@@ -26,7 +26,7 @@ public class CustomUIActivity extends Activity{
 			case READY:
 				mProgress.setVisibility(View.INVISIBLE);				//준비되었으면 프로그레스바 감춤
 				findViewById(R.id.stt_ui).setVisibility(View.VISIBLE);	//마이크 이미지 보임.
-				break;
+				break; 
 			case END:
 				mProgress.setVisibility(View.VISIBLE);						//말이 끝났으면 프로그레스바 출력(음성인식 중)
 				findViewById(R.id.stt_ui).setVisibility(View.INVISIBLE);	//마이크 이미지 감춤
