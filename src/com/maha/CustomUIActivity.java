@@ -34,7 +34,7 @@ public class CustomUIActivity extends Activity{
 				break;
 			case FINISH:
 				finish();														//¾Û Á¾·á
-				break;
+				break;  
 			}
 		}
 	};
