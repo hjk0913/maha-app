@@ -19,7 +19,7 @@ public class CustomUIActivity extends Activity{
 	private ImageView mLeftVolume[], mRightVolume[];			//볼륨 이미지
 	private SpeechRecognizer mRecognizer;						//음성인식 객체
 	
-	private final int READY = 0, END=1, FINISH=2;				//핸들러 메시지. 음성인식 준비, 끝, 앱 종료
+	private final int READY = 0, END=1, FINISH=2;				//핸들러 메시지. 음성인식 준비, 끝, 앱 종료 
 	private Handler mHandler = new Handler(){
 		public void handleMessage(Message msg){
 			switch (msg.what) {
