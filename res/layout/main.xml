@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+	<TextView
+	    android:layout_width="wrap_content"
+		android:layout_height="50dp"
+		android:text="음성인식"
+		android:textColor="@android:color/white"
+		android:textSize="20dp"
+		android:gravity="center_vertical" />
+
+	<Button
+		android:id="@+id/show"
+		android:layout_width="fill_parent"
+		android:layout_height="50dp"
+		android:text="구글 음성인식 UI" />
+	<!-- 
+	<Button
+		android:id="@+id/hide"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:text="UI만 내꺼 이용" />
+	 -->
+	<TextView
+	    android:id="@+id/result"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:textColor="@android:color/white"
+	    android:scrollbars="vertical"
+	    android:textSize="10dp" />
+	<!-- 
+	<WebView
+	    android:id="@+id/webview"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" />
+	 -->
+</LinearLayout>
