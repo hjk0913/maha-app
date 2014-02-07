@@ -145,7 +145,7 @@ public class SpeechToTextActivity extends Activity implements OnClickListener, O
 	
 	//결과 list 출력하는 다이얼로그 생성 
 	private void showSelectDialog(int requestCode, Intent data){
-		String key = "";
+		String key = ""; 
 		if(requestCode == GOOGLE_STT)						//구글음성인식이면
 			key = RecognizerIntent.EXTRA_RESULTS;			//키값 설정
 		else if(requestCode == MY_UI)						//내가 만든 activity 이면
